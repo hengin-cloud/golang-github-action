@@ -1,0 +1,10 @@
+name: 'Golang GitHub Actions'
+description: 'Advanced GitHub action for Golang workflows.'
+author: 'Ivan Bertona'
+inputs:
+  go-version:
+    description: 'The Go version to set up.'
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
